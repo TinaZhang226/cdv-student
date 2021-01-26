@@ -1,0 +1,57 @@
+body{
+        background-color:#EEC1AD;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+      }
+
+.buttons {
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+
+#number {
+  margin: auto;
+  width:30%;
+  border-radius: 3px;
+  border: 3px solid #B55C01;
+  padding:10px;
+  background-color: #f0d3c5;
+}
+
+#button {
+  background-color: #f0d3c5;
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+  border: 15px dashed lightgray;
+  border-top: none;
+  border-bottom: none;
+
+}
+#button:hover {
+    background-color: #db7040;
+    transition: ease-in-out 0.8s;
+    border: 15px dashed rgb(214, 165, 118);
+}
+
+#box {
+  position:fixed;
+  top:100px;
+  right:10%;
+  width: 80%;
+  /* height: 60%; */
+  border:5px solid #B55C01;
+  display:flex;
+  flex-wrap: wrap;
+  overflow:hidden;
+}
+
+.squares {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
