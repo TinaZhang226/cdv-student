@@ -1,0 +1,37 @@
+body{
+  background-color: #AEBFB9;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 45px;
+  color: #59362E;
+}
+
+h5{
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 30px;
+  color: #59362E;
+}
+
+.bar{
+  position: relative;
+  height: 70px;
+  width: 100px;
+  background-color: #BF8578;
+  left: 6%;
+  margin-bottom: 35px;
+  padding-left: 15px;
+}
+
+.bar p{
+  color: #59362E;
+  font-size: 24px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bar:hover {
+  background-color: #BF6D65;
+}
