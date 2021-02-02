@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function drawSquares(){
   document.getElementById('box').innerHTML="";
   let box = document.getElementById('box');
@@ -11,8 +10,6 @@ function drawSquares(){
   //document.getElementById('box').innerHTML="";
 }
 
-=======
->>>>>>> c3cd3552fdda34849d2a4e038705b208ba0bbf7e
 //var n = document.getElementById("number").value;
 // function drawSquares(){
 //   let theInput = document.getElementById("number");
@@ -33,18 +30,3 @@ function drawSquares(){
 //       y = y + 30;
 //        }
 // }
-<<<<<<< HEAD
-=======
-
-function drawSquares(){
-  document.getElementById('box').innerHTML="";
-  let box = document.getElementById('box');
-  for (var i = 0; i < document.getElementById('number').value; i++){
-      let squares = document.createElement('box').appendChild(document.createElement('b'));
-      squares.className = "squares";
-      box.appendChild(squares);
-  }
-  document.getElementById('number').value = '';
-  //document.getElementById('box').innerHTML="";
-}
->>>>>>> c3cd3552fdda34849d2a4e038705b208ba0bbf7e
