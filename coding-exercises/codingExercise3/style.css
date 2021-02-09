@@ -1,0 +1,29 @@
+body{
+  width, height: 100%;
+  margin:0;
+  background-color: #AEBFB9;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 30px;
+  color: #59362E;
+  margin-top: 6%;
+}
+
+.buttons{
+  position: relative;
+  width: 10%;
+  margin-top: 1%;
+  margin-left: 45.5%;
+  padding: 10px;
+  background-color: #BF8578;
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+  color: #59362E;
+}
+
+#viz-container{
+  margin-left: 34.5%;
+}

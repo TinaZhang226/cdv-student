@@ -1,0 +1,58 @@
+[
+    {
+        "timestamp": "2021-02-04T02:05:47.518Z",
+        "time": "1899-12-30T01:54:17.000Z",
+        "course": "psyc",
+        "durationOfDesertion": 10,
+        "forWhat": "Suddenly thought of something"
+    },
+    {
+        "timestamp": "2021-02-04T02:07:17.154Z",
+        "time": "1899-12-30T02:05:17.000Z",
+        "course": "psyc",
+        "durationOfDesertion": 1,
+        "forWhat": "Tiredness"
+    },
+    {
+        "timestamp": "2021-02-04T07:19:51.813Z",
+        "time": "1899-12-30T07:14:17.000Z",
+        "course": "acct",
+        "durationOfDesertion": 1,
+        "forWhat": "Check instructions"
+    },
+    {
+        "timestamp": "2021-02-04T07:59:35.140Z",
+        "time": "1899-12-30T07:54:17.000Z",
+        "course": "acct",
+        "durationOfDesertion": 5,
+        "forWhat": "Tiredness"
+    },
+    {
+        "timestamp": "2021-02-08T02:24:31.303Z",
+        "time": "1899-12-30T02:19:17.000Z",
+        "course": "cdv",
+        "durationOfDesertion": 1,
+        "forWhat": "watching the clock"
+    },
+    {
+        "timestamp": "2021-02-08T06:51:34.052Z",
+        "time": "1899-12-30T06:43:17.000Z",
+        "course": "mkt",
+        "durationOfDesertion": 1,
+        "forWhat": "Check instructions"
+    },
+    {
+        "timestamp": "2021-02-08T07:33:34.783Z",
+        "time": "1899-12-30T07:14:17.000Z",
+        "course": "mkt",
+        "durationOfDesertion": 5,
+        "forWhat": "Homework"
+    },
+    {
+        "timestamp": "2021-02-08T07:34:03.070Z",
+        "time": "1899-12-29T19:27:17.000Z",
+        "course": "mkt",
+        "durationOfDesertion": 1,
+        "forWhat": "suddenly thought of my boyfriend"
+    }
+]
