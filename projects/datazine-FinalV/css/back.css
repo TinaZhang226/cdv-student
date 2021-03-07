@@ -1,0 +1,14 @@
+.xaxis{
+  stroke: #F25116;
+}
+.yaxis{
+  stroke: #F25116;
+}
+.domain{
+  fill: #F25116;
+  stroke: #027368;
+}
+.tick line{
+  fill: #F25116;
+  stroke: #025951;
+}
