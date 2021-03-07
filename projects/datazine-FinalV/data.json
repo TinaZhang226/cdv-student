@@ -1,0 +1,322 @@
+[
+    {
+        "timestamp": "2021-02-28T06:49:50.440Z",
+        "timePeriod": "12pm-6pm",
+        "doingWhat": "Doing an Assignment",
+        "why": "Physical Surroundings",
+        "howLong": 4,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 1
+    },
+    {
+        "timestamp": "2021-03-01T01:12:35.713Z",
+        "timePeriod": "6am-12pm",
+        "doingWhat": "Eating a Meal",
+        "why": "Thoughts Come up in Mind",
+        "howLong": 2,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 1
+    },
+    {
+        "timestamp": "2021-03-01T03:27:49.431Z",
+        "timePeriod": "6am-12pm",
+        "doingWhat": "Doing an Assignment",
+        "why": "Thoughts Come up in Mind",
+        "howLong": 3,
+        "missInformation": "Yes",
+        "importance": 2,
+        "date": 1
+    },
+    {
+        "timestamp": "2021-03-01T13:57:46.453Z",
+        "timePeriod": "6pm-12am",
+        "doingWhat": "Eating a Meal",
+        "why": "Social Surroundings",
+        "howLong": 5,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 1
+    },
+    {
+        "timestamp": "2021-03-01T13:58:19.446Z",
+        "timePeriod": "6pm-12am",
+        "doingWhat": "Doing an Assignment",
+        "why": "Social Surroundings",
+        "howLong": 6,
+        "missInformation": "Yes",
+        "importance": 3,
+        "date": 1
+    },
+    {
+        "timestamp": "2021-03-01T13:58:04.555Z",
+        "timePeriod": "6pm-12am",
+        "doingWhat": "Watching a Movie",
+        "why": "Tiring/Boring",
+        "howLong": 4,
+        "missInformation": "Yes",
+        "importance": 2,
+        "date": 1
+    },
+    {
+        "timestamp": "2021-03-01T13:58:30.548Z",
+        "timePeriod": "6pm-12am",
+        "doingWhat": "Doing an Assignment",
+        "why": "Tiring/Boring",
+        "howLong": 3,
+        "missInformation": "Yes",
+        "importance": 2,
+        "date": 1
+    },
+    {
+        "timestamp": "2021-03-01T14:26:38.021Z",
+        "timePeriod": "6pm-12am",
+        "doingWhat": "Doing an Assignment",
+        "why": "Thoughts Come up in Mind",
+        "howLong": 2,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 1
+    },
+    {
+        "timestamp": "2021-03-02T02:25:47.587Z",
+        "timePeriod": "6am-12pm",
+        "doingWhat": "Taking a Course",
+        "why": "Physical Surroundings",
+        "howLong": 2,
+        "missInformation": "Yes",
+        "importance": 2,
+        "date": 1
+    },
+    {
+        "timestamp": "2021-03-02T02:26:21.777Z",
+        "timePeriod": "6am-12pm",
+        "doingWhat": "Taking a Course",
+        "why": "Thoughts Come up in Mind",
+        "howLong": 2,
+        "missInformation": "Yes",
+        "importance": 2,
+        "date": 2
+    },
+    {
+        "timestamp": "2021-03-01T13:59:21.846Z",
+        "timePeriod": "6pm-12am",
+        "doingWhat": "Doing an Assignment",
+        "why": "Social Surroundings",
+        "howLong": 8,
+        "missInformation": "No",
+        "importance": 4,
+        "date": 2
+    },
+    {
+        "timestamp": "2021-03-02T03:42:36.458Z",
+        "timePeriod": "6am-12pm",
+        "doingWhat": "Watching a Movie",
+        "why": "Social Surroundings",
+        "howLong": 5,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 2
+    },
+    {
+        "timestamp": "2021-03-02T02:26:04.083Z",
+        "timePeriod": "6am-12pm",
+        "doingWhat": "Taking a Course",
+        "why": "Thoughts Come up in Mind",
+        "howLong": 5,
+        "missInformation": "Yes",
+        "importance": 5,
+        "date": 2
+    },
+    {
+        "timestamp": "2021-03-02T03:54:03.757Z",
+        "timePeriod": "6am-12pm",
+        "doingWhat": "Reading a Text",
+        "why": "Thoughts Come up in Mind",
+        "howLong": 2,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 2
+    },
+    {
+        "timestamp": "2021-03-02T04:00:36.642Z",
+        "timePeriod": "12pm-6pm",
+        "doingWhat": "Having a Meeting",
+        "why": "Social Surroundings",
+        "howLong": 4,
+        "missInformation": "Yes",
+        "importance": 2,
+        "date": 2
+    },
+    {
+        "timestamp": "2021-03-02T04:21:20.487Z",
+        "timePeriod": "12am-6am",
+        "doingWhat": "Reading a Text",
+        "why": "Tiring/Boring",
+        "howLong": 4,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 3
+    },
+    {
+        "timestamp": "2021-03-02T07:35:07.008Z",
+        "timePeriod": "12pm-6pm",
+        "doingWhat": "Taking a Course",
+        "why": "Thoughts Come up in Mind",
+        "howLong": 4,
+        "missInformation": "Yes",
+        "importance": 3,
+        "date": 3
+    },
+    {
+        "timestamp": "2021-03-02T08:09:06.746Z",
+        "timePeriod": "12pm-6pm",
+        "doingWhat": "Taking a Course",
+        "why": "Thoughts Come up in Mind",
+        "howLong": 3,
+        "missInformation": "Yes",
+        "importance": 3,
+        "date": 3
+    },
+    {
+        "timestamp": "2021-03-01T14:26:22.976Z",
+        "timePeriod": "6pm-12am",
+        "doingWhat": "Doing an Assignment",
+        "why": "Physical Surroundings",
+        "howLong": 3,
+        "missInformation": "No",
+        "importance": 3,
+        "date": 3
+    },
+    {
+        "timestamp": "2021-03-02T08:18:52.534Z",
+        "timePeriod": "12pm-6pm",
+        "doingWhat": "Taking a Course",
+        "why": "Tiring/Boring",
+        "howLong": 2,
+        "missInformation": "Yes",
+        "importance": 2,
+        "date": 3
+    },
+    {
+        "timestamp": "2021-03-02T11:49:05.358Z",
+        "timePeriod": "6pm-12am",
+        "doingWhat": "Reading a Text",
+        "why": "Social Surroundings",
+        "howLong": 1,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 4
+    },
+    {
+        "timestamp": "2021-03-02T23:47:03.725Z",
+        "timePeriod": "12am-6am",
+        "doingWhat": "Reading a Text",
+        "why": "Physical Surroundings",
+        "howLong": 2,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 4
+    },
+    {
+        "timestamp": "2021-03-02T23:47:20.692Z",
+        "timePeriod": "6am-12pm",
+        "doingWhat": "Eating a Meal",
+        "why": "Thoughts Come up in Mind",
+        "howLong": 3,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 4
+    },
+    {
+        "timestamp": "2021-03-03T02:44:29.923Z",
+        "timePeriod": "6am-12pm",
+        "doingWhat": "Taking a Course",
+        "why": "Social Surroundings",
+        "howLong": 6,
+        "missInformation": "Yes",
+        "importance": 4,
+        "date": 5
+    },
+    {
+        "timestamp": "2021-03-03T07:05:20.787Z",
+        "timePeriod": "12pm-6pm",
+        "doingWhat": "Taking a Course",
+        "why": "Social Surroundings",
+        "howLong": 3,
+        "missInformation": "Yes",
+        "importance": 3,
+        "date": 5
+    },
+    {
+        "timestamp": "2021-03-01T14:27:12.618Z",
+        "timePeriod": "6pm-12am",
+        "doingWhat": "Doing an Assignment",
+        "why": "Social Surroundings",
+        "howLong": 3,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 5
+    },
+    {
+        "timestamp": "2021-03-05T12:58:59.359Z",
+        "timePeriod": "12am-6am",
+        "doingWhat": "Reading a Text",
+        "why": "Tiring/Boring",
+        "howLong": 2,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 5
+    },
+    {
+        "timestamp": "2021-03-05T12:59:46.808Z",
+        "timePeriod": "12am-6am",
+        "doingWhat": "Watching a Movie",
+        "why": "Tiring/Boring",
+        "howLong": 3,
+        "missInformation": "No",
+        "importance": 2,
+        "date": 6
+    },
+    {
+        "timestamp": "2021-03-05T13:00:18.010Z",
+        "timePeriod": "12pm-6pm",
+        "doingWhat": "Having a Meeting",
+        "why": "Tiring/Boring",
+        "howLong": 3,
+        "missInformation": "Yes",
+        "importance": 2,
+        "date": 6
+    },
+    {
+        "timestamp": "2021-03-05T13:00:37.503Z",
+        "timePeriod": "6pm-12am",
+        "doingWhat": "Doing an Assignment",
+        "why": "Physical Surroundings",
+        "howLong": 4,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 7
+    },
+    {
+        "timestamp": "2021-03-05T13:01:00.010Z",
+        "timePeriod": "12am-6am",
+        "doingWhat": "Reading a Text",
+        "why": "Thoughts Come up in Mind",
+        "howLong": 4,
+        "missInformation": "No",
+        "importance": 1,
+        "date": 7
+    },
+    {
+        "timestamp": "2021-03-05T13:01:20.291Z",
+        "timePeriod": "6pm-12am",
+        "doingWhat": "Watching a Movie",
+        "why": "Tiring/Boring",
+        "howLong": 3,
+        "missInformation": "Yes",
+        "importance": 2,
+        "date": 8
+    }
+]
