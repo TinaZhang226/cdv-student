@@ -299,7 +299,7 @@ let text2 = icon
             .endAngle(0.5 * Math.PI)
         )
       .attr("fill","#025951")
-      .attr("stroke","white")
+      .attr("stroke","#A7C8F2")
       .attr("transform","translate(25,470),rotate(-90)")
   ;
   icon
@@ -320,7 +320,7 @@ let text2 = icon
             .endAngle(0.5 * Math.PI)
         )
       .attr("fill","#025951")
-      .attr("stroke","white")
+      .attr("stroke","#A7C8F2")
       .attr("transform","translate(8,500),rotate(0)")
   ;
   icon
@@ -341,7 +341,7 @@ let text2 = icon
             .endAngle(0.5 * Math.PI)
         )
       .attr("fill","#025951")
-      .attr("stroke","white")
+      .attr("stroke","#A7C8F2")
       .attr("transform","translate(8,510),rotate(90)")
   ;
   icon
@@ -362,7 +362,7 @@ let text2 = icon
             .endAngle(0.5 * Math.PI)
         )
       .attr("fill","#025951")
-      .attr("stroke","white")
+      .attr("stroke","#A7C8F2")
       .attr("transform","translate(25,540),rotate(180)")
   ;
   icon
