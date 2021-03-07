@@ -63,7 +63,7 @@ let title = viz
     .style("font-family", "'Ravi Prakash', cursive")
     .style("font-size", "110")
     .style("stroke","white")
-    .style("stroke-width","2px")
+    .style("stroke-width","3px")
 ;
 //right
 let icon = viz
