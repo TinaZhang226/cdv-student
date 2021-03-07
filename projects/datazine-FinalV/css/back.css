@@ -12,3 +12,9 @@
   fill: #F25116;
   stroke: #025951;
 }
+.tick text{
+  font-size: 20px;
+  color: white;
+  stroke: none;
+  font-family: 'Ravi Prakash', cursive;
+}

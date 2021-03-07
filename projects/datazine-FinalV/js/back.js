@@ -86,7 +86,7 @@ function gotData(incomingData){
       .style("font-family", "'Architects Daughter', cursive")
       .style("font-size", "20")
   ;
-  xAxisTitle.attr("transform","translate(60,650),rotate(-90)");
+  xAxisTitle.attr("transform","translate(40,650),rotate(-90)");
   let yAxisTitle = viz
     .append("text")
       .attr("class","axisText")
@@ -95,7 +95,7 @@ function gotData(incomingData){
       .style("font-family", "'Architects Daughter', cursive")
       .style("font-size", "20")
   ;
-  yAxisTitle.attr("transform","translate(550,720),rotate(0)");
+  yAxisTitle.attr("transform","translate(555,730),rotate(0)");
 }
 //top-left
 let icon = viz
