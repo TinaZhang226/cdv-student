@@ -1,4 +1,5 @@
 - # Documentation of my Data Zine Project -- "Absent-Minded"
+## Screenshots of the final webpage: 
 ![Image text](https://github.com/TinaZhang226/cdv-student/blob/main/projects/datazine-FinalV/screenshot/cover.png)
 ![Image text](https://github.com/TinaZhang226/cdv-student/blob/main/projects/datazine-FinalV/screenshot/middlespread.png)
 ![Image text](https://github.com/TinaZhang226/cdv-student/blob/main/projects/datazine-FinalV/screenshot/back.png)
