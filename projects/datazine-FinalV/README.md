@@ -1,16 +1,16 @@
-# Documentation of my Data Zine Project -- "Absent-Minded"
-## Screenshots of the final webpage:
+## Documentation of my Data Zine Project -- "Absent-Minded"
+### Screenshots of the final webpage:
 ![Image text](https://github.com/TinaZhang226/cdv-student/blob/main/projects/datazine-FinalV/screenshot/cover.png)
 ![Image text](https://github.com/TinaZhang226/cdv-student/blob/main/projects/datazine-FinalV/screenshot/middlespread.png)
 ![Image text](https://github.com/TinaZhang226/cdv-student/blob/main/projects/datazine-FinalV/screenshot/back.png)
-## What data did I choose to collect?
+### What data did I choose to collect?
 - Above are the webpages that I created for this data zine project. In this project, I chose to collect data about me being absent-minded.This idea was inspired by the psychology course that I am taking. Having learned some basic knowledge about mind and consciousness, I would like to grab this chance to collect the data related to my mind.
-## How did I collect it, and what was the routine?
+### How did I collect it, and what was the routine?
 - So, how did I collect the data and what specific data did I collect? Indeed, it is hard to notice that I myself am absent-minded. So, in those days, I wrote daily plans and tried to concentrate myself on doing one thing during a certain period of time. Then, each time that I thought of other things than my assigned task, I would write down on the paper or fill one google form to record the data. The data I collected mainly cover “What I was supposed to be doing” / “What made me absent-minded” / “How long have I been absent-minded” / “What time is it?” and if I missed some information, “How important was the information that I missed”, etc.
-## Why did I choose to visualize the data in this way?
+### Why did I choose to visualize the data in this way?
 - When thinking about how to visualize the data, I first thought about making an icon to show a kind of image that can show the meaning of absent-minded. Primarily, I thought of creating an image of the brain, but I do not want the icon to be too biology-looking. Then a cloud image just appeared in my mind, and I felt like it can well represent the idea of being absent-minded, like a cloud is blowing away etc. Therefore, I created this shape. And add on more information to it.
 - The arc here is clock-looking, but I did not copy the clock, instead, since I have separated one day into 4 time periods, I feel like using the circle to represent the whole day (24 hours) is clearer.
-## What can be seen in the visualization? Does it reveal something I didn't expect?
+### What can be seen in the visualization? Does it reveal something I didn't expect?
 - There are several things that could be seen from this visualization. For example, through the background shape's opacity, we can see that most of my absent-mindedness has a relatively short period of time, which is mostly between 1-3 minutes. Also, through simple counting, we can conclude that I was absent-minded for the most times when I was doing an assignment or taking a course. However, this should not simply be concluded as I am more likely to be absent-minded when doing assignments or taking courses, since the frequency and duration of doing these two things are occupying most of my time in a day.
 - During processing the data, I coincidently found out that there seems to be a decreasing trend of me being absent-minded. I guess it may be because the deliberate action of collecting data has some impact on my subconscious, making me pay more attention to focus on my work. And that is why my back page is created like that.
 ### Did I make crucial compromises? Which ones?
