@@ -1,17 +1,19 @@
 console.log("hi");
 //data from https://towardsdatascience.com/how-to-build-animated-charts-like-hans-rosling-doing-it-all-in-r-570efc6ba382
 
+let speed = 300;
 let w = 1200;
 let h = 800;
-let xPadding = 50;
-let yPadding = 50;
+let xPadding = 70;
+let yPadding = 70;
 
 let viz = d3.select("#container")
   .append("svg")
     .attr("width", w)
     .attr("height", h)
-    .style("background-color", "lavender")
+    .style("background-color", "#818A7F")
 ;
+
 
 function gotData(incomingData){
   console.log(incomingData);
@@ -47,7 +49,10 @@ function gotData(incomingData){
   // you may use this scale to define a radius for the circles
   let rScale = d3.scaleLinear().domain(popExtent).range([5, 50]);
 
-  // the simple output of this complicated bit of code,
+
+
+
+  // the simple out put of this complicated bit of code,
   // is an array of all the years the data talks about.
   // the "dates" array looks like:
   // ["1962", "1963", "1964", "1965", ... , "2012", "2013", "2014", "2015"]
@@ -71,8 +76,10 @@ function gotData(incomingData){
     }
   }
 
+
   // make a group for all things visualization:
   let vizGroup = viz.append("g").attr("class", "vizGroup");
+
 
   // this function is called every second.
   // inside it is a data variable that always carries the "latest" data of a new year
@@ -90,54 +97,72 @@ function gotData(incomingData){
     // bind currentYearData to elements
     function assignKeys(d,i){
       return d.Country;
-    }
-    let datagroups = vizGroup.selectAll(".datagroup").data(incomingData, assignKeys);
+    };
+    let datagroups = vizGroup.selectAll(".datagroup").data(currentYearData, assignKeys);
+
 
     // take care of entering elements
     let enteringElements = datagroups.enter()
-      .append("g")
-        .attr("class", "datagroup")
+      .append('g')
+        .attr('class','datagroup')
     ;
-    enteringElements.append("circle")
-      .attr("r", 30)
-      .attr("fill", "red")
+
+    function getColorFill(d,i){
+      if (d.continent == "Americas") {
+        return "#A67E7B"
+      } else if (d.continent == "Europe") {
+        return "#8C2F1B"
+      } else if (d.continent == "Asia") {
+        return "#BF7B3F"
+      } else if (d.continent == "Oceania") {
+        return "#5D8AA6"
+      }  else if (d.continent == "Africa") {
+        return "#184059"
+      } else {
+        return "#D7D7D9"
+      }
+    }
+    function circleRadius(d,i){
+      return rScale(d.pop);
+    }
+    enteringElements.append('circle')
+      .attr('r', circleRadius)
+      .attr('fill', getColorFill)
     ;
-    enteringElements.append("text")
+
+    enteringElements.append('text')
       .text(function(d,i){
         return d.Country;
       })
-      .attr("x",0)
-      .attr("y",0)
-      .attr("font-family", "sans-serif")
-      .attr("font-size", "3em")
-      .attr("fill", "white")
+      .attr("font-family","'Oswald', sans-serif")
+      .attr('x', circleRadius)
+      .attr('y', circleRadius)
+      .attr('size', 20)
+      .attr("opacity", 0.1)
+      .on('mouseover', function (d, i) {
+        d3.select(this).transition().duration(100).attr("opacity", 1)
+       })
     ;
-    enteringElements.attr("transform", getIncomingGroupLocation).transition().attr("transform",getGroupLocation);
 
     function getGroupLocation(d,i){
-      let x = xScale(d,x);
-      let y = yScale(d,y);
-      return "translate("+x+","+y+")"
-    }
-    function getIncomingGroupLocation(d,i){
-      let x = xScale(d,x);
-      let y = 0;
-      return "translate("+x+","+y+")"
-    }
+      let x = xScale(d.fert);
+      let y = yScale(d.life);
+      return "translate("+x+","+y+")";
+    };
 
-    // take care of updating elements
-    datagoups.transition().attr("transform",getGroupLocation);
+    enteringElements.transition().duration(speed*2).attr('transform', getGroupLocation);
+
+    datagroups.transition().duration(speed).ease(d3.easeLinear).attr('transform', getGroupLocation);
 
   }
 
   // this puts the YEAR onto the visualization
   let year = viz.append("text")
       .text("")
-      .attr("x", 100)
-      .attr("y", h-100)
-      .attr("font-family", "sans-serif")
+      .attr("x", 120)
+      .attr("y", h-120)
+      .attr("font-family", "Ranchers, cursive")
       .attr("font-size", "2.7em")
-
   ;
 
   // this called the drawViz function every second
@@ -151,12 +176,15 @@ function gotData(incomingData){
     currentYear = dates[currentYearIndex];
     year.text(currentYear)
     drawViz();
-  }, 1000);
+  }, speed);
+
+
 }
 
 
 // load data
 d3.csv("data.csv").then(gotData);
+
 
 // function to build x anc y axis.
 // the only reasons these are down here is to make the code above look less polluted
@@ -170,9 +198,11 @@ function buildXAndYAxis(xScale, yScale){
     .attr("transform", "translate("+w/2+", 40)")
     .append("text")
     .attr("fill", "black")
-    .text("fertility")
-    .attr("font-family", "sans-serif")
-    .attr("font-size", "1.7em")
+    .text("Fertility")
+    .attr("font-family", "'Oswald', sans-serif")
+    .attr("font-size", "2.5em")
+    .attr("x",530)
+    .attr("y",0)
   ;
 
   let yAxisGroup = viz.append("g").attr("class", 'yaxis');
@@ -184,8 +214,11 @@ function buildXAndYAxis(xScale, yScale){
     .attr("transform", "translate(-33, "+h/2+") rotate(-90)")
     .append("text")
     .attr("fill", "black")
-    .text("life expectancy")
-    .attr("font-family", "sans-serif")
-    .attr("font-size", "1.7em")
+    .text("Life Expectancy")
+    .attr("font-family", "'Oswald', sans-serif")
+    .attr("font-size", "2.5em")
+    .attr("x", 350)
+    .attr("y", 0)
+
   ;
 }
