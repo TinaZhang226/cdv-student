@@ -212,7 +212,6 @@ function add(){
   // we add new code below:
   console.log("new data", data)
 
-
   elementsForPage = graphGroup.selectAll(".datapoint").data(data);
 
   updateData();
@@ -282,7 +281,7 @@ function remove(){
 
   exitingElements.select("rect")
       .transition()
-      .attr("fill", "#33cfff")
+      .attr("fill", "#33fff")
       .transition()
       .delay(500)
       .duration(500)
@@ -306,7 +305,7 @@ function remove(){
   yDomain = [0, yMax+yMax*0.1];
   yScale.domain(yDomain);
 
-  xAxisGroup.transition().delay(1000).call(xAxis).selectAll("text").attr("font-size", 18);
+  xAxisGroup.transition().delay(1500).call(xAxis).selectAll("text").attr("font-size", 18);
 
 
 
@@ -454,19 +453,19 @@ function secret() {
 
   elementsForPage.select("rect")
     .transition()
-    .attr("fill", chooseRandomColor)
+    .attr("fill", randomColor)
     .transition()
-    .attr("fill", chooseRandomColor)
+    .attr("fill", randomColor)
     .transition()
-    .attr("fill", chooseRandomColor)
+    .attr("fill", randomColor)
     .transition()
-    .attr("fill", chooseRandomColor)
+    .attr("fill", randomColor)
     .transition()
-    .attr("fill", chooseRandomColor)
+    .attr("fill", randomColor)
     .transition()
-    .attr("fill", chooseRandomColor)
+    .attr("fill", randomColor)
     .transition()
-    .attr("fill", chooseRandomColor)
+    .attr("fill", randomColor)
     .transition()
     .attr("fill", "black")
   ;
@@ -476,20 +475,20 @@ function secret() {
 document.getElementById("buttonF").addEventListener("click", secret);
 
 
-function chooseRandomColor(d, i){
+function randomColor(d, i){
   let ran1, ran2, ran3, ran4, ran5, ran6;
-  let arr = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "a", "b", "c", "d", "e", "f"];
-  let index1 = Math.floor((Math.random()*arr.length));
-  ran1 = arr[index1]
-  let index2 = Math.floor((Math.random()*arr.length));
-  ran2 = arr[index2]
-  let index3 = Math.floor((Math.random()*arr.length));
-  ran3 = arr[index3]
-  let index4 = Math.floor((Math.random()*arr.length));
-  ran4 = arr[index4]
-  let index5 = Math.floor((Math.random()*arr.length));
-  ran5 = arr[index5]
-  let index6 = Math.floor((Math.random()*arr.length));
-  ran6 = arr[index6]
+  let colorCode = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "a", "b", "c", "d", "e", "f"];
+  let index1 = Math.floor((Math.random()*colorCode.length));
+  ran1 = colorCode[index1]
+  let index2 = Math.floor((Math.random()*colorCode.length));
+  ran2 = colorCode[index2]
+  let index3 = Math.floor((Math.random()*colorCode.length));
+  ran3 = colorCode[index3]
+  let index4 = Math.floor((Math.random()*colorCode.length));
+  ran4 = colorCode[index4]
+  let index5 = Math.floor((Math.random()*colorCode.length));
+  ran5 = colorCode[index5]
+  let index6 = Math.floor((Math.random()*colorCode.length));
+  ran6 = colorCode[index6]
   return "#" + ran1 + ran2 + ran3 + ran4 + ran5 + ran6;
 }
