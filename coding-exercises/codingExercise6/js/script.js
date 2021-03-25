@@ -274,7 +274,7 @@ function remove(){
   console.log(data);
 
   elementsForPage = graphGroup.selectAll(".datapoint").data(data, function(d){
-    return d.name;
+    return d.key;
   });
 
   exitingElements = elementsForPage.exit();
@@ -335,7 +335,7 @@ function removeAndAdd(){
   removeAndAddDatapoints(1,1);
 
   elementsForPage = graphGroup.selectAll(".datapoint").data(data, function(d){
-    return d.name;
+    return d.key;
   });
 
   exitingElements = elementsForPage.exit();
@@ -430,7 +430,7 @@ document.getElementById("buttonC").addEventListener("click", removeAndAdd);
 function sortData(){
   sortDatapoints();
   elementsForPage = graphGroup.selectAll(".datapoint").data(data, function(d){
-    return d.name;
+    return d.key;
   });
   updateData();
 
@@ -440,7 +440,7 @@ document.getElementById("buttonD").addEventListener("click", sortData);
 function shuffleData(){
   shuffleDatapoints();
   elementsForPage = graphGroup.selectAll(".datapoint").data(data, function(d){
-    return d.name;
+    return d.key;
   });
   updateData();
 }
@@ -448,7 +448,7 @@ document.getElementById("buttonE").addEventListener("click", shuffleData);
 
 function secret() {
   elementsForPage = graphGroup.selectAll(".datapoint").data(data, function(d){
-    return d.name;
+    return d.key;
   });
 
   elementsForPage.select("rect")
@@ -469,7 +469,7 @@ function secret() {
     .transition()
     .attr("fill", "black")
   ;
-
+x
 
 }
 document.getElementById("buttonF").addEventListener("click", secret);
