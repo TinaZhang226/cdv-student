@@ -1,0 +1,42 @@
+#container{
+  /* margin-left: 20%;
+  margin-top: 1%; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 5px solid #FFFF00; */
+  padding: 10px;
+}
+button{
+  width:300px;
+  height: 86px;
+  border: none;
+}
+h3{
+  font-family: 'New Tegomin', serif;
+  text-align: center;
+  font-size: 30px;
+}
+#usa{
+  background-image: url("usa.jpg");
+  background-size: cover;
+  position: fixed;
+  top: 90%;
+  left: 36%;
+  margin-top: -43px;
+  margin-left: -150px;
+}
+#china{
+  background-image: url("china.jpg");
+  background-size: cover;
+  position: fixed;
+  top: 90%;
+  right: 36%;
+  margin-top: -43px;
+  margin-right: -150px;
+}
+button{
+  color:white;
+  font-weight: bold;
+}
