@@ -75,17 +75,17 @@ function gotData(incomingData){
       .attr("fill", "none")
       .transition()
       .delay(200)
-      .attr("stroke", "blue")
+      .attr("stroke", "#2C2F4C")
       .attr("stroke-width", 5)
       .attr("class", "line")
       ;
 
     elementsForPage
       .transition()
-      .duration(1500)
+      .duration(1000)
       .attr("d", lineMaker)
       .attr("fill", "none")
-      .attr("stroke", "blue")
+      .attr("stroke", "#2C2F4C")
       .attr("stroke-width", 5)
     ;
 
@@ -106,7 +106,7 @@ function gotData(incomingData){
       .attr("fill", "none")
       .transition()
       .delay(200)
-      .attr("stroke", "red")
+      .attr("stroke", "#BF2315")
       .attr("stroke-width", 5)
       .attr("class", "line")
       ;
@@ -116,7 +116,7 @@ function gotData(incomingData){
       .duration(500)
       .attr("d", lineMaker)
       .attr("fill", "none")
-      .attr("stroke", "red")
+      .attr("stroke", "#BF2315")
       .attr("stroke-width", 5)
     ;
 
