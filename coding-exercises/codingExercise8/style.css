@@ -1,0 +1,14 @@
+body{
+  text-align: center;
+  margin-top:30px;
+  /* background-color: black; */
+}
+p{
+  font-family: 'Antonio', sans-serif;
+  font-size: 25px;
+}
+#btn{
+  font-family: 'Antonio', sans-serif;
+  font-size: 20px;
+  background-color: #91e8e1;
+}
