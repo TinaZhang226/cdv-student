@@ -1,1 +1,1 @@
-![alt text](https://octodex.github.com/projects/dataProject/paperPrototype/IMG_0501.jpg)
+![alt text](images/IMG_0501.jpg)
