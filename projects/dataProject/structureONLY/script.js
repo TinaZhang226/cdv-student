@@ -24,3 +24,18 @@ let viz2 = d3.select("#container2")
       .style("width", 3/5*w)
       .style("height", h-yPadding)
 ;
+let viz3 = d3.select("#container3")
+  .append("svg")
+      .style("width", 3/5*w)
+      .style("height", h-yPadding)
+;
+let viz4 = d3.select("#container4")
+  .append("svg")
+      .style("width", 3/5*w)
+      .style("height", h-yPadding)
+;
+let viz5 = d3.select("#container5")
+  .append("svg")
+      .style("width", 3/5*w)
+      .style("height", h-yPadding)
+;
