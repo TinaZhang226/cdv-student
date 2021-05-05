@@ -1,0 +1,161 @@
+/* English */
+/* font-family: 'New Tegomin', serif; */
+/* Chinese */
+/* font-family: 'ZCOOL QingKe HuangYou', cursive; */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: #191919;
+  background-color: #191919;
+  margin:0;
+  font-family: 'New Tegomin', serif;
+}
+.header{
+  height: 600px;
+  font-size: 120px;
+  line-height: 0px;
+  text-align: center;
+  color: #FFCD00;
+}
+#header1 {
+  margin-top: 95px;
+}
+#header3 {
+  margin-bottom: 0px;
+}
+#mainHeader {
+  font-size: 250px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.scrollingContent div{
+  width: 40vw;
+  margin-left: 20px;
+  padding: 10px;
+  background-color: #FFCD00;
+  margin-bottom: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrollingContent p{
+  margin-bottom: 25px;
+}
+.scrollingContent div:last-child{
+  margin-bottom: 0px;
+}
+
+
+/*
+it makes sense for the sticky element
+to take the full height and width (see below).
+If it should appear smaller, I would recommend
+to still keep the sticky box full height and width
+but to position a smaller, visible div within it.
+"top" makes it stick to the top
+"z-index" makes sure it's behind the scrolling elements
+"position" makes it stick as long as its containing
+element is scrolling up (there is not magic to stickiness!)
+*/
+.stickyDiv0 {
+  background-color: lightyellow;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vizContainer0 {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+}
+.subtitle{
+  height: 600px;
+  font-size: 80px;
+  line-height: 0px;
+  text-align: center;
+  color: #FFCD00;
+}
+#subtitle1 {
+  margin-top: -1150px;
+  /* margin-bottom: 600px; */
+}
+.stickyDiv1 {
+  background-color: lightgreen;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vizContainer1 {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+}
+#genre0 {
+  color: #FFCD00;
+  /* top: 1600px;
+  left: 50px; */
+  width: 150px;
+  height: 100px;
+  background-color: #191919;
+  font-size: 50px;
+  margin-bottom:auto;
+}
+#genre1 {
+  margin-bottom: 20px;
+}
+#genre2 {
+  margin-bottom: 200px;
+}
+#genre3 {
+  background-color: white;
+}
+.stickyDiv2 {
+  background-color: lightblue;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vizContainer2 {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+}
+#year0 {
+  color: #FFCD00;
+  /* top: 1600px;
+  left: 50px; */
+  width: 150px;
+  height: 100px;
+  background-color: #191919;
+  font-size: 50px;
+  margin-bottom:auto;
+}
+#year1 {
+  margin-bottom: 20px;
+}
+#year2 {
+  margin-bottom: 200px;
+}
+#year3 {
+  background-color: white;
+}
