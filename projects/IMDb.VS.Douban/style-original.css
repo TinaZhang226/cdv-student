@@ -1,0 +1,192 @@
+/* English */
+/* font-family: 'Amatic SC', cursive;  */
+/* font-family: 'Dancing Script', cursive; */
+/* title */
+/* font-family: 'Freckle Face', cursive; */
+/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'New Tegomin', serif; */
+/* body {
+  background-color: #B64926;
+  color: #FFF0A5;
+} */
+/* width: 1450px */
+/* height: 790px; */
+body {
+  background-color: #B64926;
+}
+.left {
+  background-color: #FFB03B;
+  color: #282830;
+}
+.right {
+  background-color: #468966;
+  color: #CAE8BD;
+}
+.coverPage {
+  /* border-style: solid;
+  border-width: thick;
+  border-color: red; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 790px;
+  width: 1450px;
+  background-color: #B64926;
+  /* background-color: red; */
+}
+.title {
+  /* border-style: solid;
+  border-width: thick;
+  border-color: lightblue; */
+  height: 600px;
+  width: 950px;
+  /* background-color: lightblue; */
+  /* font-size: 100px; */
+  font-family: 'Freckle Face', cursive;
+  /* position: absolute; */
+}
+#title1 {
+  position: absolute;
+  font-size: 130px;
+  top: -110px;
+  left: 50px;
+}
+#titleFilms {
+  position: absolute;
+  font-size: 300px;
+  top: -250px;
+  left: 350px;
+}
+#title3 {
+  position: absolute;
+  font-size: 130px;
+  top: 250px;
+  right: 50px;
+}
+.titleBelow{
+  /* border-style: solid;
+  border-width: thick;
+  border-color: grey; */
+  height: 250px;
+  width: 1450px;
+  overflow: hidden;
+  /* background-color: grey; */
+  font-size: 60px;
+  font-family: 'Freckle Face', cursive;
+}
+#titleIMDb {
+  /* border-style: solid;
+  border-width: thick;
+  border-color: yellow; */
+  height: 190px;
+  width: 725px;
+  float: left;
+  position: absolute;
+  /* top: 500px; */
+  left: 0px;
+  bottom: 0;
+  /* background-color: lightyellow; */
+}
+#imdb {
+  position: absolute;
+  font-size: 120px;
+  top: -100px;
+  left: 100px;
+}
+#V {
+  position: absolute;
+  font-size: 120px;
+  top: -100px;
+  left: 650px;
+}
+#titleDouban {
+  /* border-style: solid;
+  border-width: thick;
+  border-color: lightgreen; */
+  height: 190px;
+  width: 725px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* margin-left: 50vw;
+  top: 0vw; */
+  float: right;
+  /* background-color: lightgreen; */
+}
+#douban {
+  position: absolute;
+  font-size: 120px;
+  top: -100px;
+  right: 100px;
+}
+#S {
+  position: absolute;
+  font-size: 120px;
+  top: -100px;
+  right: 650px;
+}
+.scrollingContent {
+}
+#year {
+  color: black;
+  width: 250px;
+  position: absolute;
+  top: 790px;
+  left: 600px;
+  text-align: center;
+  height: auto;
+  margin-bottom: 0;
+  border-color:black;
+  border-style: solid;
+  border-width: thin;
+}
+#yearTitle {
+  font-family: 'Freckle Face', cursive;
+  font-weight: lighter;
+  /* font-family: 'New Tegomin', serif;
+  font-weight: bolder; */
+  font-size: 80px;
+  height: 30px;
+}
+#yearContent {
+  /* font-family: 'Freckle Face', cursive; */
+  font-family: 'New Tegomin', serif;
+  font-size: 25px;
+}
+#vizL {
+  width: 600px;
+  height: 1590px;
+  position: absolute;
+  background-color: #FFB03B;
+  color: #282830;
+  top: 790px;
+  left: 0px;
+}
+#vizR {
+  width: 600px;
+  height: 1590px;
+  position: absolute;
+  background-color: #468966;
+  color: #CAE8BD;
+  top: 790px;
+  right: -10px;
+}
+#genre {
+  color: black;
+  width: 250px;
+  position: absolute;
+  top: 2400px;
+  left: 600px;
+  text-align: center;
+  border-color:black;
+  border-style: solid;
+  border-width: thin;
+}
+#genreTitle {
+  font-family: 'Freckle Face', cursive;
+  font-size: 80px;
+}
+#genreContent {
+  font-family: 'Freckle Face', cursive;
+  font-size: 30px;
+}

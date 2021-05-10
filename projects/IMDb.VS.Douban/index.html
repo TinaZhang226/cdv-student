@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>What Films Are We Liking?-IMDbVsDouban</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://unpkg.com/enter-view"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Dancing+Script:wght@700&family=Freckle+Face&family=Indie+Flower&family=New+Tegomin&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="coverPage">
+      <!-- title div -->
+      <div class="title">
+        <!-- words -->
+        <div class="">
+          <p id="title1">What</p>
+          <p id="titleFilms">FILMs</p>
+          <p id="title3">Are We Liking</p>
+        </div>
+        <!-- questionMark -->
+        <div class="questionMark">
+        </div>
+      </div>
+      <!-- Left IMDb -->
+      <div class="titleBelow">
+        <div class="left" id="titleIMDb">
+          <p id="imdb">IMDb</p>
+          <p id="V">V</p>
+        </div>
+        <!-- Right Douban -->
+        <div class="right" id="titleDouban">
+          <p id="S">S</p>
+          <p id="douban">Douban</p>
+        </div>
+      </div>
+    </div>
+
+    <section>
+
+      <div class="stickyDiv" id="containerfor1">
+        <!-- <p>this is a stickyDiv</p> -->
+        <div id="vizContainer1">
+
+        </div>
+      </div>
+
+
+      <div class="scrollingContent">
+        <div id="year">
+          <p id="yearTitle">YEAR.</p>
+          <p id="yearContent">From the scatterplot, we can see that the top 50 films from IMDb are more likely to have an older age, while the Douban top 50 films seems to be more focused on recent films. (except several really classical films like "the Shawshank Redemption" -- always be the first!!!!)</p>
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <section>
+      <div class="stickyDiv" id="containerfor2">
+        <!-- <p>this is a stickyDiv</p> -->
+        <div id="vizContainer2">
+          <p id="dramal">Drama</p>
+          <p id="actionl">Action</p>
+          <p id="familyl">Family</p>
+          <p id="dramar">Drama</p>
+          <p id="familyr">Family</p>
+        </div>
+      </div>
+
+      <div class="scrollingContent">
+        <div id="genre">
+          <p id="genreTitle">Genre</p>
+          <p id="genreContent">About the genre, the most popular genre from both websites is "Drama". Besides that, the IMDb ranking seems to be preferring "Action", "Crime", "Adventure" films, while the proportion of those from Douban website is relatively low. <br><br> One interesting fact is that there is no films with the genre "Family" in the top 50 films of IMDb, while on Douban, there are a few. There could be several reasons behind this interesting fact. One can be the western, especially US film industry puts more focus on the action films, and since IMDb users are mainly target audience of the US market, this may cause the top 50 films contains action films the most. The other reason might be that Chinese people have the culture of watching films together as a family, leading to the high view rate of those family films, which are good and appropriate to watch together with family. And most family movies are touching, making the rate easier to get high.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <div class="stickyDiv" id="containerfor3">
+        <!-- <p>this is a stickyDiv</p> -->
+        <div id="vizContainer3">
+          <div class="textl">
+            <p id="americal">America</p>
+            <p id="aN">36</p>
+            <p id="jl">Japan</p>
+            <p id="jN">4</p>
+            <p id="il">Italy</p>
+            <p id="iN">3</p>
+            <p id="fl">France</p>
+            <p id="fN">3</p>
+            <p id="bl">Brazil</p>
+            <p id="bN">1</p>
+            <p id="inl">India</p>
+            <p id="inN">1</p>
+            <p id="bril">Britain</p>
+            <p id="briN">1</p>
+            <p id="kl">Korea</p>
+            <p id="kN">1</p>
+          </div>
+
+
+          <div class="textr">
+            <p id="ar">America</p>
+            <p id="aN2">25</p>
+            <p id="jr">China</p>
+            <p id="jN2">9</p>
+            <p id="ir">Japan</p>
+            <p id="iN2">4</p>
+            <p id="fr">France</p>
+            <p id="fN2">3</p>
+            <p id="br">Italy</p>
+            <p id="bN2">3</p>
+            <p id="inr">Korea</p>
+            <p id="inN2">3</p>
+            <p id="brir">India</p>
+            <p id="briN2">2</p>
+            <p id="kr">Lebanon</p>
+            <p id="kN2">1</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="scrollingContent">
+        <div id="country">
+          <p id="countryTitle">Country</p>
+          <p id="countryContent">Now, let see if there is any difference between the two websites, according to the publication country of their Top 50 Films??!<br><br> Here are two simple and direct visualization, through which we can observe that the top 50 films of IMDb are surely dominated by films produced in the United States. (Only 28% are from other countries!!!) <br><br>It is true that the US film market and film production industry are advanced among countries all over the world, however, whether this ranking is preferenced to US films is not clear. <br><br>Comparing to the ranking given by Douban website, (which is slightly more focused on the Chinese market), we can see that there is a much higher variety towards the world film market. <br><br> ALSO, one interesting fact (not hard to understand) is that there is no Chinese film selected in the top 50 films on IMDb, while there are 9 on the list from Douban.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <div class="ending">
+        <p>Made by Tina Zhang</p>
+        <p>Resources: <a href="https://www.kaggle.com/omarhanyy/imdb-top-1000">https://www.kaggle.com/omarhanyy/imdb-top-1000</a></p>
+        <p>! ! The Final Dataset is Manually Scrapped by myself ! !</p>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="script-V1.js">
+        </script>
+  </body>
+</html>
